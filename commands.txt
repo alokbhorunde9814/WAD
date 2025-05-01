@@ -1,0 +1,53 @@
+First create a new repository on your github account 
+Step 1: Open a folder in VS Code and type these commands in terminal 
+Command: git --version 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git --version 
+git version 2.42.0.windows.2 
+Step 2: Command: git init 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git init 
+Initialized empty Git repository in D:/Users/rajesh/Desktop/KANIKA/Programming/WAD 
+lab/2a/.git/ 
+Step 3: Command: git add 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git add . 
+Step 4: Command: git status 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git status 
+On branch master 
+No commits yet 
+nothing to commit (create/copy files and use "git add" to track) 
+Step 5: Create a file “index.html” 
+Command: git add index.html 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git add index.html 
+Step 6: Command: git add --all 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git add --all 
+Step 7: Command: git commit -m “Your_Description_of_File” 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git commit -m "Firstrelease of 
+Hello World!" 
+[master (root-commit) b47e4cf] Firstrelease of Hello World! 
+1 file changed, 11 insertions(+) 
+create mode 100644 index.html 
+Step 8: Command: git commit -a -m "Updatedindex.html with a new line" 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git commit -a -m 
+"Updatedindex.html with a new line" 
+On branch master 
+nothing to commit, working tree clean 
+Step 9: Command: git remote add origin “Your_github_new_repository_Url” 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git remote add origin 
+"https://github.com/Kanika1918/WAD-Lab-2A.git" 
+Step 10: Command: git commit -m “first commit” 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git commit -m "first commit" 
+On branch master 
+nothing to commit, working tree clean 
+Step 1: Finally push your code to github using 
+Command: git push -u origin master 
+D:\Users\rajesh\Desktop\KANIKA\Programming\WAD lab\2a>git push -u origin master   
+info: please complete authentication in your browser... 
+Enumerating objects: 3, done. 
+Counting objects: 100% (3/3), done. 
+Delta compression using up to 8 threads 
+Compressing objects: 100% (2/2), done. 
+Writing objects: 100% (3/3), 402 bytes | 402.00 KiB/s, done. 
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 
+To https://github.com/Kanika1918/WAD-Lab-2A.git 
+* [new branch]      
+master -> master 
+branch 'master' set up to track 'origin/master'.
